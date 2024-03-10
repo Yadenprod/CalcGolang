@@ -18,7 +18,7 @@ func input() { //Ввод чисел
 		fmt.Print(calc(numberOne, operator, numberTwo))
 	}
 	if !checkIfInt(numberOneInput) && checkIfInt(numberTwoInput) || checkIfInt(numberOneInput) && !checkIfInt(numberTwoInput) { //если юзер хочет арабские с римскими смешать
-		panic("Нельзя совмещать арабские с римскими числами")
+		panic("Нельзя совмещать арабские с римскими числами, так же вводите целочисленные числа")
 	}
 	if !checkIfInt(numberOneInput) && !checkIfInt(numberTwoInput) { //если римские числа
 		fmt.Print(calcRomans(numberOneInput, operator, numberTwoInput))
