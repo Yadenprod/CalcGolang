@@ -1,2 +1,1 @@
-# awesomeProject
 # CalcGolang
